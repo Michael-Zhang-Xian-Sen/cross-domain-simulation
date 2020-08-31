@@ -1,0 +1,10 @@
+[*.{js,jsx,ts,tsx,vue}]
+root = true
+# 缩进风格：空格
+indent_style = space
+# 缩进大小：4
+indent_size = 4
+# 是否删除行尾的空格：true
+trim_trailing_whitespace = true
+# 是否在文件的最后插入一个空行：true
+insert_final_newline = true
