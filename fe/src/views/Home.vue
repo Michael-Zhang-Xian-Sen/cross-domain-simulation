@@ -28,18 +28,18 @@ export default {
 					label: "跨域资源共享（CORS）",
 					to: "/home/cors-cross-origin",
 				},
-				{
-					label: "nginx代理跨域",
-					to: "",
-				},
-				{
-					label: "nodejs中间件代理跨域",
-					to: "",
-				},
-				{
-					label: "WebSocket协议跨域",
-					to: "",
-				},
+				// {
+				// 	label: "nginx代理跨域（待实现）",
+				// 	to: "",
+				// },
+				// {
+				// 	label: "nodejs中间件代理跨域（待实现）",
+				// 	to: "",
+				// },
+				// {
+				// 	label: "WebSocket协议跨域（待实现）",
+				// 	to: "",
+				// },
 			],
 		};
 	},

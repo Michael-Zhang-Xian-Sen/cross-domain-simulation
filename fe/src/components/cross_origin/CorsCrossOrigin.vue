@@ -67,17 +67,17 @@ export default {
 				isDeliverCookie: {
 					label: "是否携带cookie",
 					value: false,
-				},
-				contentType: {
-					label: "HTTP Content-Type",
-					value: "application/x-www-form-urlencoded",
-				},
-				corsApi: {
-					label: "HTTP Access-Control-Allow-Origin",
+                },
+                corsApi: {
+					label: "HTTP响应头 Access-Control-Allow-Origin",
 					value: "*",
 				},
+				contentType: {
+					label: "HTTP请求头 Content-Type",
+					value: "application/x-www-form-urlencoded",
+				},
 				httpType: {
-					label: "HTTP Method",
+					label: "HTTP请求头 Method",
 					value: "post",
 				},
 				corsType: {
@@ -135,6 +135,6 @@ export default {
 
 <style scoped>
 .diy-form {
-	width: 1500px;
+	width: 1750px;
 }
 </style>
